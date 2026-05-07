@@ -1,0 +1,25 @@
+# --- Data Files ---
+# Exclude large data files (OULAD datasets)
+*.csv
+*.xlsx
+*.json
+
+# --- SQL Server Specific ---
+# Exclude database backups and primary/log data files
+*.bak
+*.mdf
+*.ldf
+*.log
+
+# --- Error Logs & Execution Trace ---
+# Exclude Bulk Insert error logs and local path traces
+D:/Data warehouse/Errors_logs/
+*_Errors.log
+studentVle_Errors.log
+
+# --- System Files ---
+# Exclude OS-generated and IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
